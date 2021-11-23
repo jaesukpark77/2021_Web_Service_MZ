@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0", maximun-scale=2.0, minimum-scale=1.0, user-scalable = yes, shrink-tp-fit=no">
+    <!--[if IE]>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <![endif]-->
+    <title>Life Funding</title>
+    <script src="https://kit.fontawesome.com/2901f4f5e1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/reset.css" type="text/css">
+    <link rel="stylesheet" href="../css/mypage_web.css" type="text/css">
+</head>
+<body>
+    <!--header에는 로그인과 로고, 그리고 상단 메뉴바가 소속된다-->
+    <header>
+        <section id="headerWrap">
+            <div id="TopColor"></div>
+            <div id="titleBox">
+                <h1 id="title"> Life funding</h1>
+                <h4 id="plan_funding">펀딩예정</h4>
+                <h4 id="do_funding">펀딩하기</h4>
+                <h4 id="mypage">마이페이지</h4>
+                <div id="search">
+                    <img id="s_img" src="../images/search.png">
+                    <input type="text" id="s_box" placeholder="궁금한 인생을 입력하세요!">
+                </div>
+                <h4 id="login">로그인</h4>
+                <h4 id="join">회원가입</h4>
+                <div id="fund_box">
+                    <h5 id="open_funding">펀딩 오픈</h5>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <!-- main에는 프로필 정보 및 진행중인 펀딩 보여준다 -->
+    <main>
+        <div class="wrap">
+            <section id="profile">
+                <div class="left">
+                    <img src="../images/member1.jpg" alt="프로필 이미지"> 
+                    <h1>마케터-유빈</h1>
+                    <a href="#" class="state">#일상</a>
+                    <a href="#" class="state">#긍정</a>
+                </div>
+                <div class="right">
+                    <div class="feature">
+                        <i class="fab far fa-star"></i>
+                        <h3>인기도 5.0</h3>
+                    </div>
+                    <div class="feature">
+                        <i class="fab far fas fa-user-friends"></i>
+                        <h3>서포터 nnn 명</h3>
+                    </div>
+                    <div class="btnFollow">
+                        <a href="#">+ Follow</a> 
+                    </div>
+                </div>
+            </section>
+            <section id="my_list">
+                <div class="funding_story">
+                    <h2>#지금 펀딩할 스토리</h2>
+                </div>
+                <div class="funding_list">
+                    <div class="funding1">
+                        <div><img src="../images/content1.png" id="img1"></div>
+                        <span>졸업 후 방황을 겪는 마케터의 이야기 <strong>333명</strong> 참여</span>
+                        <div>
+                            <input type="range" min="0" max="100" value="1">
+                        </div>
+                        <p><b>43%</b> ● 216,000원</p>
+                        <div class="me_fund">
+                            <h3>나도 펀딩하기</h3>
+                        </div>
+                    </div>
+
+                    <div class="funding2">
+                        <div><img src="../images/content3.png" id="img1"></div>
+                        <span>무너진 삶을 되돌리는 헬창 프로젝트 <strong>35명</strong> 참여</span>
+                        <div>
+                            <input type="range" min="0" max="100" value="1">
+                        </div>
+                        <p><b>43%</b> ● 216,000원</p>
+                        <div class="me_fund">
+                            <h3>나도 펀딩하기</h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+</body>
+</html>
