@@ -90,8 +90,13 @@
         border-radius: 20px;
     }
 
+    #profile{
+        width : 100%;
+    }
+
     #profile .left{
-        width:100%;
+        width:700px;
+        border-right:1px solid rgb(230, 230, 230);
     }
 
     .left img{
@@ -105,8 +110,13 @@
         font-weight:bold;
         font-size:2.5rem;
         color: #555;
-        margin-left: 180px;
+        margin-left: 170px;
         margin-bottom: 20px;
+    }
+
+    .left h1 b{
+        font-size: 2rem;
+        font-weight:bold;
     }
 
     #state{
@@ -162,7 +172,7 @@
     }
 
     .state{
-        display:inline-block;
+        display:block;
         width:60px;
         height:25px;
         margin-left:10px;
@@ -172,9 +182,11 @@
         font-size:1.5rem;
         line-height: 25px;
         text-align: center;
+        margin-bottom:150px;
     }
 
     .right{
+        width:200px;
         margin-left: 500px;
         margin-top:-250px;
     }
@@ -194,26 +206,68 @@
         font-size: 2.3rem;
     }
 
-    .btnFollow{
-        display: block;
-        width:1000px;
-        height:35px;
-        margin:20px 0px;
-        background:#908282;
-        border-radius:16px;
-        font-weight: bold;
-        font-size:2rem;
-        line-height: 35px;
+    #profile nav.info{
+        width: 800px;
+        margin-left: 900px;
+        margin-top:-300px;
         text-align: center;
-        margin-top: 80px;
     }
 
-    .btnFollow a{
-        color:#fff;
+    #profile .info_nav{
+        width: 100%;
+        border-radius:20px;
+        background:#fff;
     }
 
-    #my_list{
+    #profile .info_nav a{
+        display: inline-block;
+	    width: 180px;
+	    height: 160px;
+	    margin: 10px 2px;
+        line-height:220px;
+        text-align: center;
+        border-right:1px solid #eee
+    }
+    
+    #profile .info_nav a:nth-of-type(4){
+        border:none;
+    }
+
+    #profile .info_nav a span{
+        line-height:28px;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    #profile .info_nav a span:before{
+        display:none;
+    }
+    
+    #profile .info_nav a span b{
+        display: block;
+        padding: 15px 0 -40px ;
+        line-height:50px;
+        margin-top:10px;
+        margin-bottom: -50px;
+    }
+
+    #setting .notice{
+        margin-left: 800px;
         margin-top:100px;
+    }
+
+    #setting .notice a{
+        display: block;
+        margin: 20px;
+    }
+
+    #setting .notice a strong{
+        font-size:2.5rem;
+        border-bottom: 1px solid #ccc;
+    }
+    
+    #my_list{
+        margin-top:160px;
         margin-left:50px
     }
 
@@ -303,7 +357,6 @@
         margin-left:5px;
     }
 
-
     .me_fund{
         width:120px;
         height:20px;
@@ -316,5 +369,19 @@
         margin-top: 3px;
         margin-left:230px;
         margin-bottom:5px;
+    }
+    #footerWrap {
+        text-align: center;
+        margin: 50px;
+        font-size: 14px;
+    }
+    #footerWrap .snsIcon {
+        width: 20px;
+        padding: 3px;
+        margin-bottom: 15px;
+        cursor: pointer;
+    }
+    #footerWrap #copyright {
+        color: #2f3c3dee;
     }
 }
